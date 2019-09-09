@@ -4,7 +4,7 @@ A Node.js based API for creating users and tasks related to said users. Made wit
 https://wills-nodejs-task-manager.herokuapp.com/
 
 ## HOW DOES IT WORK?
-This app is entirely made up of Node.js and an extensive use of about a dozen npm packages. There is no frontend to project, this is purely a backend project but the API is available to use through heroku using the link above. The app uses Mongo DB for the database which is NoSQL, and uses Mongoose in order to gain access to it's array of amazing features. Express is being used for handeling routers and routes. There is also a middleware that is for creating JSON Web Tokens that get associated to a person's account and is used for authenticating the use of the various API endpoints. Theres also a sendgrid package installed that sends welcome and farewell emails to accounts created and deleted.
+This app is entirely made up of Node.js and an extensive use of about a dozen npm packages. There is no frontend to project, this is purely a backend project but the API is available to use through heroku using the link above. The app uses Mongo DB for the database which is NoSQL, and uses Mongoose in order to gain access to it's array of amazing features. Express is being used for handeling routers and routes. There is also a middleware for creating JSON Web Tokens that get associated to a person's account and is used for authenticating the use of the various API endpoints. Theres also a sendgrid package installed that sends welcome and farewell emails to accounts created and deleted.
 
 Jest is installed so that test suites can be created and evaluated.
 

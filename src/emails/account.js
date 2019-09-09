@@ -15,8 +15,8 @@ const sendGoodbyeEmail = (email, name) => {
 	sgMail.send({
 		to: email,
 		from: 'example@mail.com',
-		subject: 'Reeeeeeeeeeeeeee',
-		text: 'OOoohHhhHHH YOU MAKE ME SO AAAANGRYYY. GETOUT GETOUT GETOUT!!!'
+		subject: 'Goodbye!',
+		text: 'See ya!'
 	})
 }
 
